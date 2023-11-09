@@ -3,7 +3,9 @@
     var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
     var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
   })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-B9GARC08ZVUL-2");
-
+aptrinsic("identify", {
+           "id":"userdemo@gmail.com","firstName":"gaurav"
+}, {"id":"IBM","name":"IBM1"} );
 function validate() {
 	// var r=Math.floor(Math.random()*4);
 	var email = document.getElementById("username").value;
